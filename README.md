@@ -25,7 +25,7 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@master
       - name: tfsec
-        uses: aquasecurity/tfsec-action@v1.0.0
+        uses: aquasecurity/tfsec-action
 ```
 
 Run tfsec as part of a GitHub Action flow. Optionally prevent the failure of tfsec from breaking the build or pass additional arguments using `additional_args`.
@@ -77,7 +77,7 @@ jobs:
 - bash: [GPL 3.0 or later](https://www.gnu.org/licenses/gpl-3.0.html)
 - curl: [curl license](https://curl.se/docs/copyright.html)
 - git: [GPL 2.0 or later](https://github.com/git/git/blob/master/COPYING)
-- jq: [MIT](https://github.com/stedolan/jq/blob/master/COPYING) 
+- jq: [MIT](https://github.com/stedolan/jq/blob/master/COPYING)
 
 ## License
 
